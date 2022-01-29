@@ -1,21 +1,100 @@
-name:Step
-type: legs
-speed: 1.3
-flying: false
-health: 210
-armor: 6
-rotatespeed: 3
-flying: false
-health: 160
-range: 200
-targetAir: true
-legCount: 6
-legMoveSpace: 1
-legPairOffset: 2
-legLength: 8
-legExstention: 0
-legBaseOffset: 0
-LandShake: 1
-legSplashDamage: 10
-legSplashRange: 42
-allowLegStep: true
+{
+	"type": "legs",
+	"legCount": 6,
+	"legMoveSpace": 1,
+	"legPairOffset": 3,
+	"legLength": 40,
+	"legExtension": -16,
+	"legBaseOffset": 10,
+	"landShake": 3,
+	"legSpeed": 0.11,
+	"legLengthScl": 0.9,
+	"rippleScale": 3.6,
+	"legSplashDamage": 70,
+	"legSplashRange": 12,
+	"hovering": true,
+	"allowLegStep": true,
+	"visualElevation": 1.2,
+	"speed": 0.35,
+	"name": "Step",
+	"description": "Shoots an array of healing bolts. Can step over blocks.",
+	"hitSize": 41,
+	"drag": 0.06,
+	"health": 36000,
+	"drownTimeMultiplier": 10,
+	"mechFrontSway": 2.2,
+	"mechSideSway": 0.4,
+	"rotateSpeed": 1.7,
+	"armor": 33,
+	"buildSpeed": 8,
+	"immunities": [
+		"slow",
+		"melting",
+		"burning"
+	],
+	"lightRadius": 220,
+	"abilities": [
+		{
+			"type": "mindustry.entities.abilities.ForceFieldAbility",
+			"radius": 140,
+			"regen": 4.5,
+			"max": 6000,
+			"cooldown": 850
+		}
+	],
+	"faceTarget": true,
+	"weapons": [
+		{
+			"name": "zodiac-mount",
+			"top": "true",
+			"mirror": "true",
+			"x": 7,
+			"y": 0,
+			"alternate": true,
+			"recoil": 1.25,
+			"shootY": -1,
+			"reload": 3,
+			"shootY": 1.7,
+			"shootSound": "laserShoot",
+			"velocityRnd": 0.45,
+			"shake": 0,
+			"cooldownTime": 60,
+			"inaccuracy": 15,
+			"rotate": true,
+			"rotateSpeed": 2.5,
+			"bullet": {
+				"type": "LaserBoltBulletType",
+				"lifeTime": 45,
+				"healPercent": 20,
+				"backColor": "84f491",
+				"frontColor": "ffffff",
+				"lightColor": "ffffff",
+				"lightOpacity": 0.35,
+				"homingPower": 0.07,
+				"homingRange": 10,
+				"speed": 6.25,
+				"damage": 40,
+				"collidesTeam": true,
+				"status": "electrified",
+				"pierce": true,
+				"width": 0.75,
+				"height": 1,
+				"shrinkY": -3,
+				"lightRadius": 5,
+				"weaveScale": 1,
+				"weaveMag": 2,
+				"lightning": 5,
+				"lightningDamage": 4,
+				"lightningLength": 4,
+				"lightningCone": 360,
+				"lightningLengthRand": 4,
+				"lightningColor": "84f491"
+			}
+		},
+		{
+			"name": "zodiac-mount",
+			"top": "true",
+			"mirror": "true",
+			"x": 20.75,
+			"y": 4.5,
+			"alternate": true,
