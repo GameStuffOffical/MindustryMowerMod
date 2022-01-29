@@ -20,7 +20,6 @@ consumes: {
     lead/90
     ]
   }
-  }
 
 
 upgrades: [
@@ -28,3 +27,4 @@ upgrades: [
 ]
 
 category: units
+}
