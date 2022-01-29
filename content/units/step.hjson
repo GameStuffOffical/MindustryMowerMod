@@ -3,8 +3,8 @@
 	legCount: 4
 	legMoveSpace: 1
 	legPairOffset: 3
-	legLength: 4
-	legExtension: -5
+	legLength: 15
+	legExtension: -3
 	legBaseOffset: 5
 	landShake: 3
 	legSpeed: 0.11
