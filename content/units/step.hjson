@@ -6,10 +6,10 @@
 	legLength: 5
 	legExtension: -3
 	legBaseOffset: 3
-	landShake: 3
+	landShake: .5
 	legSpeed: 0.11
 	legLengthScl: 0.9
-	rippleScale: 3.6
+	rippleScale: 1
 	legSplashDamage: 70
 	legSplashRange: 12
 	hovering: true,
