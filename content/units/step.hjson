@@ -28,13 +28,5 @@
 	targetAir:false
 	targetGround:true
 	controllerAi:scuicideAi
+	range:100
 
-weapons [
-	{
-	name:ai
-	bullet: {
-		type:basicBulletType
-		lifeTime:0
-	}
-}
-]
