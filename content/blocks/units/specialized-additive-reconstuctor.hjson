@@ -10,7 +10,6 @@ requirements: [
  constructime: 700
   
 size: 3
-consumePower: 3
 consumes: {
     items: {
      items: [
