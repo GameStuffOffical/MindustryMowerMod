@@ -23,8 +23,7 @@ consumes: {
 
 
 upgrades: [
-  [dagger, Step]
+  [dagger, step]
 ]
 
 category: units
-}
