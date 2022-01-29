@@ -1,1 +1,1 @@
-require
+require("mindustry-mower-mod/mowerAI")
