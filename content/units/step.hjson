@@ -32,5 +32,9 @@
 weapons [
 	{
 	name:ai
+	bullet: {
+		type:basicBulletType
+		lifeTime:0
+	}
 }
 ]
