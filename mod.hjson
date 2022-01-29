@@ -1,0 +1,4 @@
+name:mindustry-mower-mod
+displayName:Mindustry Mower Mod
+description: Adds mower class to the game.
+minGameVersion: "126.2"
