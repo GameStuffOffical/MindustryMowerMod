@@ -1,2 +1,21 @@
 name:Step
-type: mech
+type: legs
+speed: 1.3
+flying: false
+health: 210
+armor: 6
+rotatespeed: 3
+flying: false
+health: 160
+range: 200
+targetAir: true
+legCount: 6
+legMoveSpace: 1
+legPairOffset: 2
+legLength: 8
+legExstention: 0
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 10
+legSplashRange: 42
+allowLegStep: true
