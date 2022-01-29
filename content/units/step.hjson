@@ -28,3 +28,9 @@
 	targetAir:false
 	targetGround:true
 	controllerAi:scuicideAi
+
+weapons [
+	{
+	name:ai
+}
+]
